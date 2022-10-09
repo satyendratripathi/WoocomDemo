@@ -111,9 +111,7 @@ function satyendra_custom_checkout_field_display_admin_order_meta($order){
 
 
 
-/**
- * Add a woo-custom-style.css
- */
+
 
 
 

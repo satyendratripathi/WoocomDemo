@@ -104,3 +104,5 @@
 
 2022-10-09T11:33:46+00:00 CRITICAL syntax error, unexpected '.' in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 36
 
+2022-10-09T14:17:55+00:00 CRITICAL syntax error, unexpected '}', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 183
+
