@@ -15,7 +15,7 @@
 	 *
 	 *
 	 */
-	
+	/**************** Start OF CUSTOM SHORTCODE for Image**********/
 	 function add_custom_image($atts, $content = null) {
     $default = array(
         'link' => '#',
@@ -39,6 +39,25 @@
 }
 add_shortcode('add_custom_image', 'add_custom_image');
 /**************** END OF CUSTOME SHORTCODE**********/
+
+/************************** Start OF Rename Add to cart Button**********/
+
+
+add_filter('woocommerce_product_single_add_to_cart_text','saty_customize_add_to_cart_button_woocommerce');
+function saty_customize_add_to_cart_button_woocommerce(){
+return __('Add to Basket', 'woocommerce');
+}
+
+add_filter( 'woocommerce_product_add_to_cart_text', 'woocommerce_shop_page_add_to_cart_callback' );  
+function woocommerce_shop_page_add_to_cart_callback() {
+    return __( 'Add to Basket', 'text-domain' );
+}
+
+/************************** END OF Rename Add to cart Button**********/
+
+
+
+
 
 if ( ! function_exists( 'twentytwentytwo_support' ) ) :
 
