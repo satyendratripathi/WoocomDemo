@@ -13,16 +13,17 @@
  * Add custom fee if more than 100$
  * @param WC_Cart $cart
  */
-
-
-
-
 add_action('woocommerce_cart_calculate_fees' , 'add_custom_fees');
 
 /**
  * Add custom fee if more than 100$
  * @param WC_Cart $cart
  */
+
+add_action('woocommerce_cart_calculate_fees' , 'add_custom_fees');
+
+
+
 function add_custom_fees( WC_Cart $cart ){
     if( $cart->subtotal < 100 ){
         return;
@@ -34,7 +35,12 @@ function add_custom_fees( WC_Cart $cart ){
 	
 }
 
-/***************End****************//
+
+/***************End****************/
+
+/**********************END discount
+
+
 
 	/**
 	 * Customshortcode for assignment
@@ -137,16 +143,6 @@ function satyendra_custom_checkout_field_display_admin_order_meta($order){
 
 
 
-
-
-
-
-
-
-
-
-
-
 if ( ! function_exists( 'twentytwentytwo_support' ) ) :
 
 	/**
@@ -167,9 +163,6 @@ if ( ! function_exists( 'twentytwentytwo_support' ) ) :
 	}
 
 endif;
-
-
-
 
 
 add_action( 'after_setup_theme', 'twentytwentytwo_support' );
