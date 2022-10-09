@@ -104,3 +104,17 @@
 
 2022-10-09T11:33:46+00:00 CRITICAL syntax error, unexpected '.' in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 36
 
+2022-10-09T13:34:20+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 190
+
+2022-10-09T13:35:33+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 190
+
+2022-10-09T13:36:20+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 190
+
+2022-10-09T13:38:20+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 190
+
+2022-10-09T13:40:11+00:00 CRITICAL syntax error, unexpected '-', expecting '(' in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 122
+
+2022-10-09T13:41:34+00:00 CRITICAL syntax error, unexpected '',' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 135
+
+2022-10-09T13:42:13+00:00 CRITICAL syntax error, unexpected '',' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 135
+

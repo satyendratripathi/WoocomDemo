@@ -111,9 +111,9 @@ function satyendra_custom_checkout_field_display_admin_order_meta($order){
 
 
 
-/**
- * Add a woo-custom-style.css
- */
+
+
+
 
 
 
@@ -173,6 +173,11 @@ if ( ! function_exists( 'twentytwentytwo_styles' ) ) :
 
 		// Enqueue theme stylesheet.
 		wp_enqueue_style( 'twentytwentytwo-style' );
+		
+		
+ //  Adding Custom CSS file in theme woo-custom-style.css
+ 
+		wp_enqueue_style( 'woo-custom-style', get_template_directory_uri() . '/assets/css/woo-custom-style.css', array(), '1.1', 'all');
 
 	}
 
