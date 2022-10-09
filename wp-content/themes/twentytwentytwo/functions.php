@@ -10,6 +10,25 @@
  */
 
 
+add_action('woocommerce_cart_calculate_fees' , 'add_custom_fees');
+
+/**
+ * Add custom fee if more than three article
+ * @param WC_Cart $cart
+ */
+function add_custom_fees( WC_Cart $cart ){
+    if( $cart->subtotal < 50 ){
+        return;
+    }
+    
+    // Calculate the amount to reduce
+    $discount = $cart->subtotal * 0.1;
+    $cart->add_fee( ' Your cart value is above $50. You are aligible for 10% discount has been added.', -$discount);
+	
+}
+
+
+
 	/**
 	 * Customshortcode for assignment
 	 *
@@ -171,6 +190,7 @@ if ( ! function_exists( 'twentytwentytwo_styles' ) ) :
 
 		// Enqueue theme stylesheet.
 		wp_enqueue_style( 'twentytwentytwo-style' );
+		
 		//  Adding Custom CSS file in theme woo-custom-style.css
  
 		wp_enqueue_style( 'woo-custom-style', get_template_directory_uri() . '/assets/css/woo-custom-style.css', array(), '1.1', 'all');
@@ -178,7 +198,6 @@ if ( ! function_exists( 'twentytwentytwo_styles' ) ) :
 	}
 
 endif;
-
 
 add_action( 'wp_enqueue_scripts', 'twentytwentytwo_styles' );
 
