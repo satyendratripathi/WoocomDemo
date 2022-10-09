@@ -96,7 +96,7 @@ add_action( 'woocommerce_checkout_update_order_meta', 'satyendra_custom_checkout
 
 function satyendra_custom_checkout_field_update_order_meta( $order_id ) {
     if ( ! empty( $_POST['my_field_name'] ) ) {
-        update_post_meta( $order_id, 'My Field', sanitize_text_field( $_POST['my_field_name'] ) );
+        update_post_meta( $order_id, 'Satyendra _Order Notes', sanitize_text_field( $_POST['my_field_name'] ) );
     }
 }
 
@@ -106,12 +106,14 @@ function satyendra_custom_checkout_field_update_order_meta( $order_id ) {
 add_action( 'woocommerce_admin_order_data_after_billing_address', 'satyendra_custom_checkout_field_display_admin_order_meta', 10, 1 );
 
 function satyendra_custom_checkout_field_display_admin_order_meta($order){
-    echo '<p><strong>'.__('My Field').':</strong> ' . get_post_meta( $order->id, 'My Field', true ) . '</p>';
+    echo '<p><strong>'.__('Satyendra _Order Notes').':</strong> ' . get_post_meta( $order->id, 'Satyendra _Order Notes', true ) . '</p>';
 }
 
 
 
-
+/**
+ * Add a woo-custom-style.css
+ */
 
 
 
