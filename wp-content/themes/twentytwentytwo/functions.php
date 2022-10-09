@@ -10,6 +10,36 @@
  */
 
 
+	/**
+	 * Customshortcode for assignment
+	 *
+	 *
+	 */
+	
+	 function add_custom_image($atts, $content = null) {
+    $default = array(
+        'link' => '#',
+	
+    );
+    $a = shortcode_atts($default, $atts);
+    $content = do_shortcode($content);
+	extract(shortcode_atts(array("src" => ''
+	
+	), $atts));
+	return '
+	<div>
+	<a href="'.($a['link']).'" style="color: blue">'.$content.'<img src="' . $src . '" alt="'. do_shortcode($content) .'"  />
+
+<p>' . $content . '</p>
+</a>
+</div>
+
+	';
+    
+}
+add_shortcode('add_custom_image', 'add_custom_image');
+/**************** END OF CUSTOME SHORTCODE**********/
+
 if ( ! function_exists( 'twentytwentytwo_support' ) ) :
 
 	/**
@@ -30,6 +60,10 @@ if ( ! function_exists( 'twentytwentytwo_support' ) ) :
 	}
 
 endif;
+
+
+
+
 
 add_action( 'after_setup_theme', 'twentytwentytwo_support' );
 
@@ -60,6 +94,7 @@ if ( ! function_exists( 'twentytwentytwo_styles' ) ) :
 	}
 
 endif;
+
 
 add_action( 'wp_enqueue_scripts', 'twentytwentytwo_styles' );
 

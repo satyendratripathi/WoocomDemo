@@ -1,0 +1,106 @@
+2022-10-09T08:37:45+00:00 CRITICAL syntax error, unexpected '"alt"' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 15
+
+2022-10-09T08:38:45+00:00 CRITICAL syntax error, unexpected '"alt"' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 15
+
+2022-10-09T08:39:45+00:00 CRITICAL syntax error, unexpected '"alt"' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 15
+
+2022-10-09T08:41:45+00:00 CRITICAL syntax error, unexpected '"alt"' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 15
+
+2022-10-09T08:43:45+00:00 CRITICAL syntax error, unexpected '"alt"' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 15
+
+2022-10-09T08:45:45+00:00 CRITICAL syntax error, unexpected '"alt"' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 15
+
+2022-10-09T08:47:45+00:00 CRITICAL syntax error, unexpected '"alt"' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 15
+
+2022-10-09T08:52:44+00:00 CRITICAL syntax error, unexpected '"alt"' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 15
+
+2022-10-09T08:53:19+00:00 CRITICAL syntax error, unexpected '"alt"' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 15
+
+2022-10-09T08:53:44+00:00 CRITICAL syntax error, unexpected '"alt"' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 15
+
+2022-10-09T08:53:54+00:00 CRITICAL syntax error, unexpected '"alt"' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 15
+
+2022-10-09T08:54:00+00:00 CRITICAL syntax error, unexpected '"alt"' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 15
+
+2022-10-09T08:55:44+00:00 CRITICAL syntax error, unexpected '"alt"' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 15
+
+2022-10-09T08:57:43+00:00 CRITICAL syntax error, unexpected '"alt"' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 15
+
+2022-10-09T08:58:44+00:00 CRITICAL syntax error, unexpected '"alt"' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 15
+
+2022-10-09T09:13:44+00:00 CRITICAL Cannot redeclare img_shortcode() (previously declared in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php:13) in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 51
+
+2022-10-09T09:19:58+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 18
+
+2022-10-09T09:20:43+00:00 CRITICAL syntax error, unexpected '0' (T_LNUMBER), expecting ')' in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 18
+
+2022-10-09T09:38:07+00:00 CRITICAL syntax error, unexpected ''color'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 18
+
+2022-10-09T09:41:04+00:00 CRITICAL syntax error, unexpected ''color'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 18
+
+2022-10-09T09:41:13+00:00 CRITICAL syntax error, unexpected ''color'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 18
+
+2022-10-09T09:41:17+00:00 CRITICAL syntax error, unexpected ''color'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 18
+
+2022-10-09T09:41:21+00:00 CRITICAL syntax error, unexpected ''color'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 18
+
+2022-10-09T09:41:24+00:00 CRITICAL syntax error, unexpected ''color'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 18
+
+2022-10-09T09:42:03+00:00 CRITICAL syntax error, unexpected ''color'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 18
+
+2022-10-09T09:42:04+00:00 CRITICAL syntax error, unexpected ''color'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 18
+
+2022-10-09T09:44:09+00:00 CRITICAL syntax error, unexpected '"color"' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 18
+
+2022-10-09T09:45:40+00:00 CRITICAL syntax error, unexpected ''color'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 18
+
+2022-10-09T09:45:42+00:00 CRITICAL syntax error, unexpected ''color'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 18
+
+2022-10-09T09:45:43+00:00 CRITICAL syntax error, unexpected ''color'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 18
+
+2022-10-09T09:45:43+00:00 CRITICAL syntax error, unexpected ''color'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 18
+
+2022-10-09T09:46:17+00:00 CRITICAL syntax error, unexpected '' => '' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 18
+
+2022-10-09T10:01:58+00:00 CRITICAL syntax error, unexpected ')', expecting variable (T_VARIABLE) in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 38
+
+2022-10-09T10:03:45+00:00 CRITICAL syntax error, unexpected ')', expecting variable (T_VARIABLE) in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 38
+
+2022-10-09T10:04:00+00:00 CRITICAL syntax error, unexpected ')', expecting variable (T_VARIABLE) in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 38
+
+2022-10-09T10:04:45+00:00 CRITICAL syntax error, unexpected ')', expecting variable (T_VARIABLE) in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 38
+
+2022-10-09T10:04:57+00:00 CRITICAL syntax error, unexpected ')', expecting variable (T_VARIABLE) in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 38
+
+2022-10-09T10:04:57+00:00 CRITICAL syntax error, unexpected ')', expecting variable (T_VARIABLE) in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 38
+
+2022-10-09T10:04:59+00:00 CRITICAL syntax error, unexpected ')', expecting variable (T_VARIABLE) in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 38
+
+2022-10-09T10:05:00+00:00 CRITICAL syntax error, unexpected ')', expecting variable (T_VARIABLE) in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 38
+
+2022-10-09T10:05:09+00:00 CRITICAL syntax error, unexpected ')', expecting variable (T_VARIABLE) in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 38
+
+2022-10-09T10:05:45+00:00 CRITICAL syntax error, unexpected ''url'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 42
+
+2022-10-09T10:05:47+00:00 CRITICAL syntax error, unexpected ''url'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 42
+
+2022-10-09T11:07:31+00:00 CRITICAL syntax error, unexpected '.' in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 58
+
+2022-10-09T11:32:46+00:00 CRITICAL syntax error, unexpected '.' in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 36
+
+2022-10-09T11:32:53+00:00 CRITICAL syntax error, unexpected '.' in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 36
+
+2022-10-09T11:32:56+00:00 CRITICAL syntax error, unexpected '.' in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 36
+
+2022-10-09T11:32:58+00:00 CRITICAL syntax error, unexpected '.' in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 36
+
+2022-10-09T11:32:59+00:00 CRITICAL syntax error, unexpected '.' in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 36
+
+2022-10-09T11:33:03+00:00 CRITICAL syntax error, unexpected '.' in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 36
+
+2022-10-09T11:33:08+00:00 CRITICAL syntax error, unexpected '.' in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 36
+
+2022-10-09T11:33:29+00:00 CRITICAL syntax error, unexpected '.' in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 36
+
+2022-10-09T11:33:46+00:00 CRITICAL syntax error, unexpected '.' in C:\xampp\htdocs\wocom\WoocomDemo\wp-content\themes\twentytwentytwo\functions.php on line 36
+
