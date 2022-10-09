@@ -9,25 +9,32 @@
  * @since Twenty Twenty-Two 1.0
  */
 
+/**
+ * Add custom fee if more than 100$
+ * @param WC_Cart $cart
+ */
+
+
+
 
 add_action('woocommerce_cart_calculate_fees' , 'add_custom_fees');
 
 /**
- * Add custom fee if more than three article
+ * Add custom fee if more than 100$
  * @param WC_Cart $cart
  */
 function add_custom_fees( WC_Cart $cart ){
-    if( $cart->subtotal < 50 ){
+    if( $cart->subtotal < 100 ){
         return;
     }
     
     // Calculate the amount to reduce
     $discount = $cart->subtotal * 0.1;
-    $cart->add_fee( ' Your cart value is above $50. You are aligible for 10% discount has been added.', -$discount);
+    $cart->add_fee( ' Your cart value is above $100. You are aligible for 10% discount has been added.', -$discount);
 	
 }
 
-
+/***************End****************//
 
 	/**
 	 * Customshortcode for assignment
