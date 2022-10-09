@@ -55,6 +55,68 @@ function woocommerce_shop_page_add_to_cart_callback() {
 
 /************************** END OF Rename Add to cart Button**********/
 
+/***************************Add the field to the checkout and Order Test******************/
+/**
+ * Add the field to the checkout
+ */
+add_action( 'woocommerce_after_order_notes', 'satyendra_custom_checkout_field' );
+
+function satyendra_custom_checkout_field( $checkout ) {
+
+    echo '<div id="satyendra_custom_checkout_field"><h2>' . __('Satyendra _Order Notes') . '</h2>';
+
+    woocommerce_form_field( 'my_field_name', array(
+        'type'          => 'text',
+        'class'         => array('my-field-class form-row-wide'),
+        'label'         => __('Fill in this field'),
+        'placeholder'   => __('Enter something'),
+        ), $checkout->get_value( 'my_field_name' ));
+
+    echo '</div>';
+
+}
+
+/**
+ * Process the checkout
+ */
+add_action('woocommerce_checkout_process', 'satyendra_custom_checkout_field_process');
+
+function satyendra_custom_checkout_field_process() {
+    // Check if set, if its not set add an error.
+    if ( ! $_POST['my_field_name'] )
+        wc_add_notice( __( 'Please enter something into this new shiny field.' ), 'error' );
+}
+
+
+
+/**
+ * Update the order meta with field value
+ */
+add_action( 'woocommerce_checkout_update_order_meta', 'satyendra_custom_checkout_field_update_order_meta' );
+
+function satyendra_custom_checkout_field_update_order_meta( $order_id ) {
+    if ( ! empty( $_POST['my_field_name'] ) ) {
+        update_post_meta( $order_id, 'My Field', sanitize_text_field( $_POST['my_field_name'] ) );
+    }
+}
+
+/**
+ * Display field value on the order edit page
+ */
+add_action( 'woocommerce_admin_order_data_after_billing_address', 'satyendra_custom_checkout_field_display_admin_order_meta', 10, 1 );
+
+function satyendra_custom_checkout_field_display_admin_order_meta($order){
+    echo '<p><strong>'.__('My Field').':</strong> ' . get_post_meta( $order->id, 'My Field', true ) . '</p>';
+}
+
+
+
+
+
+
+
+
+
 
 
 
